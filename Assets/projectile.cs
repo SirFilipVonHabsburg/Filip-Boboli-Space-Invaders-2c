@@ -9,6 +9,7 @@ public class projectile : MonoBehaviour
     public float movespeed;
     private Vector2 moveSpeed;
     public static projectile instance;
+    private PointManager pointManager;
 
     public object Vectosr2 { get; private set; }
 
@@ -19,6 +20,7 @@ public class projectile : MonoBehaviour
     void Start()
     {
         rb.AddForce(Vector2.up * movespeed, ForceMode2D.Impulse);
+        pointManager = GameObject.Find("PointManager").GetComponent<PointManager>();
         
     }
 
@@ -33,6 +35,7 @@ public class projectile : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             Destroy(collision.gameObject);
+            pointManager.UptadeScore(50);
             Destroy(gameObject);
         }
 
