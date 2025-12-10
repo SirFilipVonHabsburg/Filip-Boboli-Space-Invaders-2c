@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8581580324257092860}
   - component: {fileID: 2231308487775772671}
+  - component: {fileID: 303353530750549084}
   m_Layer: 0
   m_Name: 1 point ghost
   m_TagString: Untagged
@@ -84,3 +85,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &303353530750549084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125052759597756510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76cd3a96b5976014d99497f17cfe900b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyProjectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
