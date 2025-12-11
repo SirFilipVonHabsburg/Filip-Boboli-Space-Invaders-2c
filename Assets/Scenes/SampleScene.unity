@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 323, y: 231}
+  m_AnchoredPosition: {x: 297.99997, y: 277}
   m_SizeDelta: {x: 45.45, y: 56.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41846547
@@ -265,6 +265,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1001 &96103997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -469,6 +472,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1 &204727859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7125052759597756510, guid: a53ed105e3053dc499b452ffb7c64a23, type: 3}
@@ -647,6 +653,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1001 &259762156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -783,6 +792,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1 &304768622 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7125052759597756510, guid: a53ed105e3053dc499b452ffb7c64a23, type: 3}
@@ -1109,7 +1121,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212, y: 231}
+  m_AnchoredPosition: {x: 187, y: 279}
   m_SizeDelta: {x: 45.45, y: 56.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &415666500
@@ -1218,6 +1230,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1 &437658720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7125052759597756510, guid: a53ed105e3053dc499b452ffb7c64a23, type: 3}
@@ -1420,7 +1435,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.683562
+  orthographic size: 7.7870464
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1681,6 +1696,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1 &652104892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7125052759597756510, guid: a53ed105e3053dc499b452ffb7c64a23, type: 3}
@@ -1804,6 +1822,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1001 &688079606
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2408,7 +2429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8326c7c2db1fc61408b1d1d1648732cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 1
 --- !u!50 &949422307
 Rigidbody2D:
   serializedVersion: 4
@@ -2445,7 +2466,7 @@ Transform:
   m_GameObject: {fileID: 949422305}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6800003, y: -0.06, z: -10.006245}
+  m_LocalPosition: {x: 4.27, y: 0.63, z: -10.006245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2476,6 +2497,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1 &1068402641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2683,7 +2707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 268, y: 231}
+  m_AnchoredPosition: {x: 243, y: 277}
   m_SizeDelta: {x: 45.45, y: 56.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1123531737
@@ -3080,7 +3104,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: 203}
+  m_AnchoredPosition: {x: 374, y: 247}
   m_SizeDelta: {x: 656.8, y: 130.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1213226148
@@ -3248,6 +3272,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1 &1232516583
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,7 +3659,7 @@ Transform:
   m_GameObject: {fileID: 1418126269}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.6800003, y: 1.38, z: -10.006245}
+  m_LocalPosition: {x: 4.35, y: 1.93, z: -10.006245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3689,7 +3716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8326c7c2db1fc61408b1d1d1648732cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 1
 --- !u!114 &1418126275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3703,6 +3730,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy_Projectile: {fileID: 2544098326636513602, guid: 8166c83838ee42f4a899732012d4e1ee, type: 3}
+  spawnTimer: 10
+  spawnMax: 10
+  spawnMin: 5
 --- !u!1 &1428198460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3834,7 +3864,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -39, y: 200}
+  m_AnchoredPosition: {x: -6, y: 247}
   m_SizeDelta: {x: 656.8, y: 130.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1510447088
